@@ -25,7 +25,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Our <strong>Team</strong></h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>With more than 10 years in application design and development</p>
         </div>
 
         <div class="row">
@@ -42,8 +42,8 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>Atanasius Tendy</h4>
+                <span>Chief Executive Officer & Architect</span>
               </div>
             </div>
           </div>
@@ -60,8 +60,8 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>Hartati</h4>
+                <span>Programmer</span>
               </div>
             </div>
           </div>
@@ -78,8 +78,8 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
+                <h4>Aji</h4>
+                <span>Technician</span>
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@
               </div>
               <div class="member-info">
                 <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
+                <span>Marketing</span>
               </div>
             </div>
           </div>

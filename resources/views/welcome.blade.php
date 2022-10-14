@@ -106,7 +106,8 @@
                 <i class="bx bxl-dribbble"></i>
               </div>
               <h4><a href="">Company Profile</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <p>A company profile is a statement that describes a business essential elements. Most of these profiles are designed as marketing material for different purposes.
+</p>
             </div>
           </div>
 
@@ -119,7 +120,7 @@
                 <i class="bx bx-file"></i>
               </div>
               <h4><a href="">Web Information System</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <p>Web information system, or web-based information system, is an information system that uses Internet web technologies to deliver information and services</p>
             </div>
           </div>
 
@@ -132,7 +133,7 @@
                 <i class="bx bx-tachometer"></i>
               </div>
               <h4><a href="">Android Application</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <p>Software application developed specifically for use on small, wireless computing devices, such as smartphones and tablets, rather than desktop or laptop computers</p>
             </div>
           </div>
 
@@ -145,7 +146,7 @@
                 <i class="bx bx-layer"></i>
               </div>
               <h4><a href="">Database Application</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <p>A database application is a computer program whose primary purpose is retrieving information from a computerized database</p>
             </div>
           </div>
 
@@ -158,7 +159,7 @@
                 <i class="bx bx-slideshow"></i>
               </div>
               <h4><a href="">Dashboard Information Management</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              <p>A management dashboard is a tool used to present all important management KPIs in a single place, share insights with c-level executives in an efficient way, and empower the management to make fast and data-driven decisions based on the latest information.</p>
             </div>
           </div>
 
@@ -171,7 +172,7 @@
                 <i class="bx bx-arch"></i>
               </div>
               <h4><a href="">Internet of things / Automation</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <p>he Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.</p>
             </div>
           </div>
 
@@ -200,30 +201,30 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 1</h4>
+              <h4>SD Maria Bintang Laut</h4>
               <p>App</p>
               <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https://sdmbl.sch.id/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
+              <h4>Kebon Dalem School</h4>
               <p>Web</p>
               <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https://kebondalem.sch.id/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 2</h4>
+              <h4>KACARUMA.COM</h4>
               <p>App</p>
               <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https://www.kacaruma.com/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -240,50 +241,50 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 2</h4>
+              <h4>Tendy Developer</h4>
               <p>Web</p>
               <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https://tendydeveloper.com" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 3</h4>
+              <h4>Desa Wisata Berjiharjo</h4>
               <p>App</p>
               <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https://desawisatabejiharjo.net/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Card 1</h4>
+              <h4>Supervisi Guru YPII</h4>
               <p>Card</p>
               <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https://supervisi.ypiigroup.or.id/login.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Card 3</h4>
+              <h4>Kejaksaan Negeri Landak</h4>
               <p>Card</p>
               <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https://kejari.landakkab.go.id/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
+              <h4>YPII Group</h4>
               <p>Web</p>
               <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https://ypiigroup.or.id" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
