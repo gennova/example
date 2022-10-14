@@ -106,7 +106,8 @@
                 <i class="bx bxl-dribbble"></i>
               </div>
               <h4><a href="">Company Profile</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <p>A company profile is a statement that describes a business essential elements. Most of these profiles are designed as marketing material for different purposes.
+</p>
             </div>
           </div>
 
@@ -119,7 +120,7 @@
                 <i class="bx bx-file"></i>
               </div>
               <h4><a href="">Web Information System</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <p>Web information system, or web-based information system, is an information system that uses Internet web technologies to deliver information and services</p>
             </div>
           </div>
 
@@ -132,7 +133,7 @@
                 <i class="bx bx-tachometer"></i>
               </div>
               <h4><a href="">Android Application</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <p>Software application developed specifically for use on small, wireless computing devices, such as smartphones and tablets, rather than desktop or laptop computers</p>
             </div>
           </div>
 
@@ -145,7 +146,7 @@
                 <i class="bx bx-layer"></i>
               </div>
               <h4><a href="">Database Application</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <p>A database application is a computer program whose primary purpose is retrieving information from a computerized database</p>
             </div>
           </div>
 
@@ -158,7 +159,7 @@
                 <i class="bx bx-slideshow"></i>
               </div>
               <h4><a href="">Dashboard Information Management</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              <p>A management dashboard is a tool used to present all important management KPIs in a single place, share insights with c-level executives in an efficient way, and empower the management to make fast and data-driven decisions based on the latest information.</p>
             </div>
           </div>
 
@@ -171,7 +172,7 @@
                 <i class="bx bx-arch"></i>
               </div>
               <h4><a href="">Internet of things / Automation</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <p>he Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.</p>
             </div>
           </div>
 

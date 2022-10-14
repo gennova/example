@@ -2238,3 +2238,25 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+  /* editing custom manual by tendy*/
+  #header .logo {
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+}
+
+#hero .carousel-content {
+  background: rgba(4, 4, 4, 0.7);
+  padding: 20px;
+  color: #fff;
+  border-top: 5px solid #1bbd36;
+  position: relative;
+  top: -200px;
+}
+}
