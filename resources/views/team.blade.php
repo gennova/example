@@ -20,7 +20,7 @@
     </section><!-- End Breadcrumbs -->
 
     <!-- ======= Our Team Section ======= -->
-    @include('teamsection')
+    @include('teamseaction')
     <!-- End Our Team Section -->
 
   </main><!-- End #main -->
