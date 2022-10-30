@@ -6,6 +6,7 @@ use App\Models\Quote;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreQuoteRequest;
 use App\Http\Requests\UpdateQuoteRequest;
+use Illuminate\Support\Facades\DB;
 
 class QuoteController extends Controller
 {
@@ -17,7 +18,11 @@ class QuoteController extends Controller
     public function index()
     {
         //
-        return view('quote');
+        // $quote = DB::select('select * from quotes');
+        $quote = Quote::all();
+
+        return view('quote', ['quotes' => $quote]);
+        //return view('quote');
     }
 
     /**

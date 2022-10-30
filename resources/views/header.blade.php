@@ -40,7 +40,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html"><span>Tendy</span>&nbsp;Developer</a></h1>
+      <h1 class="logo me-auto"><a href="{{ url('/') }}"><span>Tendy</span>&nbsp;Developer</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -59,6 +59,8 @@
                   <li><a href="#">Online Shop</a></li>
                   <li><a href="#">Tendy Portofolio</a></li>
                   <li><a href="#">Tendy CV</a></li>
+                  <li><a href="{{ url('/quote') }}">Quote</a></li>
+                  <li><a href="#">Download</a></li>
                 </ul>
               </li>
             </ul>

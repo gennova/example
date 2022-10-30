@@ -25,49 +25,34 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row">
+        <?php
+        foreach ($quotes as $quote) {
+          echo '
+          <article class="entry">
+          <div class="entry-meta">
+            <ul>
+              <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="{{ url(/single) }}">'.$quote->quote.'</a></li>
+              <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="{{ url(/single) }}"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+            </ul>
+          </div>
+
+          <div class="entry-content">
+            <p>
+              '.$quote->quote.'
+            </p>
+          </div>
+
+        </article>';
+        }
+        ?>
 
         <div class="col-lg-8 entries">
-
-          <article class="entry">
-
-            <div class="entry-meta">
-              <ul>
-                <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="{{ url('/single') }}">John Doe</a></li>
-                <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="{{ url('/single') }}"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
-              </ul>
-            </div>
-
-            <div class="entry-content">
-              <p>
-                Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
-                Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
-              </p>
-            </div>
-
-          </article><!-- End quote entry -->
-
-          <article class="entry">
-
-            <div class="entry-meta">
-              <ul>
-                <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="{{ url('/single') }}">John Doe</a></li>
-                <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="{{ url('/single') }}"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
-              </ul>
-            </div>
-
-            <div class="entry-content">
-              <p>
-                Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
-                Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
-              </p>
-            </div>
-
-          </article><!-- End quote entry -->
+          
 
           <div class="blog-pagination">
             <ul class="justify-content-center">
-              <li><a href="#">1</a></li>
-              <li class="active"><a href="#">2</a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
               <li><a href="#">3</a></li>
             </ul>
           </div>

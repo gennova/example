@@ -14,7 +14,7 @@
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2>Your Business <span>Partner</span></h2>
-              <p>Whatever your challenges, Tendy Developer is always here to provide you with "long-term, high-trust" software development services.</p>
+              <p>Have an Ideas, Tendy Developer is always here to provide you with "long-term, high-trust" software development services.</p>
               <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
             </div>
           </div>
@@ -25,7 +25,7 @@
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2>Empower</h2>
-              <p>We understand your business valuable and our job to empower your business within awesome technology</p>
+              <p>We understand your business valuable and our job to empower your business within integrated technology</p>
               <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
             </div>
           </div>
@@ -59,38 +59,7 @@
 
   <main id="main">
 
-    <!-- ======= About Us Section ======= -->
-    <section id="about-us" class="about-us">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row content">
-          <div class="col-lg-6" data-aos="fade-right">
-            <h2>YOUR BUSINESS PARTNER</h2>
-            <h3>We understand and care your business growth. Let's supporting and empower your business by
-              providing dynamic features in an easily integrated and upgraded technology, 
-              We will equip Intuitive apps, Payment gateway level Banks & Merchants to offer your customers great experience.
-            </h3>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-            <p>
-              We have two lines of business - Software Development Services and Software Product Services. 
-              We provide a full range of software development capabilities including Google Suite, Microsoft Apps, mobile, web, Java etc. 
-              Our product services cover hotel, retailer, cafe, restaurant, employee management, attendance management,
-              reporting, data analyst, deployment and support of related apps by targeting small to medium company.
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Software Requirements and Analyst</li>
-              <li><i class="ri-check-double-line"></i> Development, Deployment, Training, Supporting</li>
-              <li><i class="ri-check-double-line"></i> Guarantee lifetime maintenance</li>
-            </ul>
-            <p class="fst-italic">
-              Feel free to discuss and direct connect with us.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Us Section -->
+@include('aboutsection')
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
@@ -182,116 +151,8 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Database</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>SD Maria Bintang Laut</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-zoom-in"></i></a>
-              <a href="https://sdmbl.sch.id/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Kebon Dalem School</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-zoom-in"></i></a>
-              <a href="https://kebondalem.sch.id/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>KACARUMA.COM</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-zoom-in"></i></a>
-              <a href="https://www.kacaruma.com/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Database</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-zoom-in"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Tendy Developer</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-zoom-in"></i></a>
-              <a href="https://tendydeveloper.com" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Desa Wisata Berjiharjo</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-zoom-in"></i></a>
-              <a href="https://desawisatabejiharjo.net/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Supervisi Guru YPII</h4>
-              <p>Database</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-zoom-in"></i></a>
-              <a href="https://supervisi.ypiigroup.or.id/login.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Kejaksaan Negeri Landak</h4>
-              <p>Database</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-zoom-in"></i></a>
-              <a href="https://kejari.landakkab.go.id/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>YPII Group</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-zoom-in"></i></a>
-              <a href="https://ypiigroup.or.id" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
+    @include('portosection')
+    <!-- End Portfolio Section -->
 
     <!-- ======= Our Clients Section ======= -->
     <section id="clients" class="clients">
