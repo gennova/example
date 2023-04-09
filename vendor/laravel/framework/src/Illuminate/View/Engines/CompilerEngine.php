@@ -62,6 +62,8 @@ class CompilerEngine extends PhpEngine
             $this->compiler->compile($path);
         }
 
+        $this->compiledOrNotExpired[$path] = true;
+
         // Once we have the path to the compiled file, we will evaluate the paths with
         // typical PHP just like any other templates. We also keep a stack of views
         // which have been rendered for right exception messages to be generated.

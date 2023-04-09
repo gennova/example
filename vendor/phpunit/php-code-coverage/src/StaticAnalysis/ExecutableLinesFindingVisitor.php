@@ -257,9 +257,81 @@ final class ExecutableLinesFindingVisitor extends NodeVisitorAbstract
                 reset($node->cond);
             }
 
+<<<<<<< HEAD
             if ([] !== $node->loop) {
                 if (null === $startLine) {
                     $startLine = $node->loop[0]->getStartLine();
+=======
+            $line = $return->getEndLine();
+
+            if ($return->expr !== null) {
+                $line = $return->expr->getStartLine();
+            }
+
+            $this->executableLines[$line] = $line;
+        }
+    }
+
+    /**
+     * @return int[]
+     */
+    private function getLines(Node $node): array
+    {
+        if ($node instanceof BinaryOp) {
+            if (($node->left instanceof Node\Scalar ||
+                $node->left instanceof Node\Expr\ConstFetch) &&
+                ($node->right instanceof Node\Scalar ||
+                $node->right instanceof Node\Expr\ConstFetch)) {
+                return [$node->right->getStartLine()];
+            }
+
+            return [];
+        }
+
+        if ($node instanceof Cast ||
+            $node instanceof PropertyFetch ||
+            $node instanceof NullsafePropertyFetch ||
+            $node instanceof StaticPropertyFetch) {
+            return [$node->getEndLine()];
+        }
+
+        if ($node instanceof ArrayDimFetch) {
+            if (null === $node->dim) {
+                return [];
+            }
+
+            return [$node->dim->getStartLine()];
+        }
+
+        if ($node instanceof Array_) {
+            $startLine = $node->getStartLine();
+
+            if (isset($this->executableLines[$startLine])) {
+                return [];
+            }
+
+            if ([] === $node->items) {
+                return [$node->getEndLine()];
+            }
+
+            if ($node->items[0] instanceof ArrayItem) {
+                return [$node->items[0]->getStartLine()];
+            }
+        }
+
+        if ($node instanceof ClassMethod) {
+            if ($node->name->name !== '__construct') {
+                return [];
+            }
+
+            $existsAPromotedProperty = false;
+
+            foreach ($node->getParams() as $param) {
+                if (0 !== ($param->flags & Class_::VISIBILITY_MODIFIER_MASK)) {
+                    $existsAPromotedProperty = true;
+
+                    break;
+>>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc
                 }
 
                 end($node->loop);

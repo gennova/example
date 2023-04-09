@@ -113,7 +113,7 @@
 
         <div class="section-title">
           <h2>Features</h2>
-          <p>We developing application for following scope</p>
+          <p>Whether to increase the capacity of your team or to build your product from scratch, We are good performing in software development company with high capabilities.</p>
         </div>
 
         <div class="row">

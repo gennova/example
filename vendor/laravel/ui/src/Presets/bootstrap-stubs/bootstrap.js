@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+import _ from 'lodash';
+window._ = _;
+
+>>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc
 import 'bootstrap';
 
 /**

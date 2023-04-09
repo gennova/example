@@ -97,6 +97,21 @@ namespace Illuminate\Support\Facades;
  * @method static \Illuminate\Routing\RouteRegistrar where(array $where)
  * @method static \Illuminate\Routing\RouteRegistrar withoutMiddleware(array|string $middleware)
  * @method static \Illuminate\Routing\RouteRegistrar withoutScopedBindings()
+ * @method static \Illuminate\Routing\Router|\Illuminate\Routing\RouteRegistrar group(\Closure|string|array $attributes, \Closure|string $routes)
+ * @method static \Illuminate\Routing\ResourceRegistrar resourceVerbs(array $verbs = [])
+ * @method static string|null currentRouteAction()
+ * @method static string|null currentRouteName()
+ * @method static void apiResources(array $resources, array $options = [])
+ * @method static void bind(string $key, string|callable $binder)
+ * @method static void macro(string $name, object|callable $macro)
+ * @method static void model(string $key, string $class, \Closure|null $callback = null)
+ * @method static void pattern(string $key, string $pattern)
+ * @method static void resources(array $resources, array $options = [])
+ * @method static void substituteImplicitBindings(\Illuminate\Support\Facades\Route $route)
+ * @method static boolean uses(...$patterns)
+ * @method static boolean is(...$patterns)
+ * @method static boolean has(string $name)
+ * @method static mixed input(string $key, string|null $default = null)
  *
  * @see \Illuminate\Routing\Router
  */

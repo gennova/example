@@ -14,7 +14,7 @@
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2>Your Business <span>Partner</span></h2>
-              <p>We bring your ideas to life with high-quality software development services and long-term support.</p>
+              <p>Have an Ideas, Tendy Developer is always here to provide you with "long-term, high-trust" software development services.</p>
               <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
             </div>
           </div>

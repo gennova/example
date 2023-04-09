@@ -11,6 +11,7 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\Facades\ParallelTesting;
 use Illuminate\Support\Str;
+use Illuminate\Testing\AssertableJsonString;
 use Illuminate\View\Component;
 use Mockery;
 use Mockery\Exception\InvalidCountException;

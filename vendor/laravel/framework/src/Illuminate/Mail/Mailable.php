@@ -1267,7 +1267,7 @@ class Mailable implements MailableContract, Renderable
     }
 
     /**
-     * Format the mailable recipient for display in an assertion message.
+     * Format the mailable recipeint for display in an assertion message.
      *
      * @param  object|array|string  $address
      * @param  string|null  $name

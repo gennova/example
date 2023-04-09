@@ -11,6 +11,7 @@
     ],
     "require": {
         "php": "^8.0",
+<<<<<<< HEAD
         "illuminate/console": "^9.21|^10.0",
         "illuminate/filesystem": "^9.21|^10.0",
         "illuminate/support": "^9.21|^10.0",
@@ -19,6 +20,15 @@
     "require-dev": {
         "orchestra/testbench": "^7.0|^8.0",
         "phpunit/phpunit": "^9.3"
+=======
+        "illuminate/console": "^9.21",
+        "illuminate/filesystem": "^9.21",
+        "illuminate/support": "^9.21",
+        "illuminate/validation": "^9.21"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0"
+>>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc
     },
     "autoload": {
         "psr-4": {

@@ -721,6 +721,10 @@ class Command
                 'filter',
                 'groups',
                 'excludeGroups',
+<<<<<<< HEAD
+=======
+                'testsuite',
+>>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc
             ]
         );
 
@@ -748,6 +752,10 @@ class Command
                 'filter',
                 'groups',
                 'excludeGroups',
+<<<<<<< HEAD
+=======
+                'testsuite',
+>>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc
             ]
         );
 

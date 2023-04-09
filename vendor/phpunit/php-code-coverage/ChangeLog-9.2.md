@@ -2,6 +2,7 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+<<<<<<< HEAD:vendor/phpunit/php-code-coverage/ChangeLog-9.2.md
 ## [9.2.26] - 2023-03-06
 
 ### Changed
@@ -56,6 +57,8 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 * Tweaked CSS for HTML report
 * Updated bundled CSS/JavaScript components used for HTML report: Bootstrap 4.6.2 and jQuery 3.6.1
 
+=======
+>>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc:vendor/phpunit/php-code-coverage/ChangeLog.md
 ## [9.2.18] - 2022-10-27
 
 ### Fixed
@@ -476,6 +479,7 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 
 * This component is no longer supported on PHP 7.1
 
+<<<<<<< HEAD:vendor/phpunit/php-code-coverage/ChangeLog-9.2.md
 [9.2.26]: https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.25...9.2.26
 [9.2.25]: https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.24...9.2.25
 [9.2.24]: https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.23...9.2.24
@@ -484,6 +488,8 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 [9.2.21]: https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.20...9.2.21
 [9.2.20]: https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.19...9.2.20
 [9.2.19]: https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.18...9.2.19
+=======
+>>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc:vendor/phpunit/php-code-coverage/ChangeLog.md
 [9.2.18]: https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.17...9.2.18
 [9.2.17]: https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.16...9.2.17
 [9.2.16]: https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.15...9.2.16
