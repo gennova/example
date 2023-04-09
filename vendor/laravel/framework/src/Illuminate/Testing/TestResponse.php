@@ -553,22 +553,6 @@ class TestResponse implements ArrayAccess
     }
 
     /**
-<<<<<<< HEAD
-     * Assert that the given string matches the streamed response content.
-     *
-     * @param  string  $value
-     * @return $this
-     */
-    public function assertStreamedContent($value)
-    {
-        PHPUnit::assertSame($value, $this->streamedContent());
-
-        return $this;
-    }
-
-    /**
-=======
->>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc
      * Assert that the given string or array of strings are contained within the response.
      *
      * @param  string|array  $value

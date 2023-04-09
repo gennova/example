@@ -233,11 +233,7 @@ class Vite implements Htmlable
     /**
      * Use the given callback to resolve attributes for preload tags.
      *
-<<<<<<< HEAD
-     * @param  (callable(string, string, ?array, ?array): (array|false))|array|false  $attributes
-=======
      * @param  (callable(string, string, ?array, ?array): array)|array  $attributes
->>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc
      * @return $this
      */
     public function usePreloadTagAttributes($attributes)
@@ -343,6 +339,9 @@ class Vite implements Htmlable
         }
 
         [$stylesheets, $scripts] = $tags->unique()->partition(fn ($tag) => str_starts_with($tag, '<link'));
+
+        $preloads = $preloads->sortByDesc(fn ($args) => $this->isCssPath($args[1]))
+            ->map(fn ($args) => $this->makePreloadTagForChunk(...$args));
 
         $preloads = $preloads->sortByDesc(fn ($args) => $this->isCssPath($args[1]))
             ->map(fn ($args) => $this->makePreloadTagForChunk(...$args));

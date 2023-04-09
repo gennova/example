@@ -18,28 +18,18 @@ class Filesystem implements FilesystemOperator
 {
     use CalculateChecksumFromStream;
 
-<<<<<<< HEAD
-    private Config $config;
-    private PathNormalizer $pathNormalizer;
-=======
     private FilesystemAdapter $adapter;
     private Config $config;
     private PathNormalizer $pathNormalizer;
     private ?PublicUrlGenerator $publicUrlGenerator;
     private ?TemporaryUrlGenerator $temporaryUrlGenerator;
->>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc
 
     public function __construct(
         private FilesystemAdapter $adapter,
         array $config = [],
         PathNormalizer $pathNormalizer = null,
-<<<<<<< HEAD
-        private ?PublicUrlGenerator $publicUrlGenerator = null,
-        private ?TemporaryUrlGenerator $temporaryUrlGenerator = null,
-=======
         PublicUrlGenerator $publicUrlGenerator = null,
         TemporaryUrlGenerator $temporaryUrlGenerator = null,
->>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc
     ) {
         $this->config = new Config($config);
         $this->pathNormalizer = $pathNormalizer ?: new WhitespacePathNormalizer();

@@ -31,11 +31,7 @@ class Vue extends Preset
     protected static function updatePackageArray(array $packages)
     {
         return [
-<<<<<<< HEAD
-            '@vitejs/plugin-vue' => '^4.0.0',
-=======
             '@vitejs/plugin-vue' => '^3.0.1',
->>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc
             'vue' => '^3.2.37',
         ] + Arr::except($packages, [
             '@vitejs/plugin-react',

@@ -57,15 +57,6 @@ final class Question
     {
         $html = (new HtmlRenderer)->parse($question)->toString();
 
-<<<<<<< HEAD
-        $question = new SymfonyQuestion($html);
-
-        if ($autocomplete !== null) {
-            $question->setAutocompleterValues($autocomplete);
-        }
-
-=======
->>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc
         $output = Termwind::getRenderer();
 
         if ($output instanceof SymfonyStyle) {
@@ -81,11 +72,7 @@ final class Question
             $property->setValue($output, new QuestionHelper);
 
             try {
-<<<<<<< HEAD
-                return $output->askQuestion($question);
-=======
                 return $output->ask($html);
->>>>>>> 112d54332b9e9998f49eb280f1b4a26a1801bafc
             } finally {
                 $property->setValue($output, $currentHelper);
             }
