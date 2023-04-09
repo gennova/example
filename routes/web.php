@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/users', 'App\Http\Controllers\UserController@index');
+Route::get('/quote', 'App\Http\Controllers\QuoteController@index');
 
 Route::get('/', function () {
     return view('welcome');
