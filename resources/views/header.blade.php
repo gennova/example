@@ -79,7 +79,7 @@
       <div class="header-social-links d-flex">
         <a href="https://twitter.com/TendyDeveloper" class="twitter"><i class="bu bi-twitter"></i></a>
         <a href="https://facebook.com/tendydeveloper" class="facebook"><i class="bu bi-facebook"></i></a>
-        <a href="https://www.instagram.com/tendy_developer" class="instagram"><i class="bu bi-instagram"></i></a>
+        <!-- <a href="https://www.instagram.com/tendy_developer" class="instagram"><i class="bu bi-instagram"></i></a> -->
         <a href="https://www.linkedin.com/in/tendydeveloper/" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
       </div>
 
