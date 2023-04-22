@@ -111,61 +111,6 @@ class TestResponse implements ArrayAccess
     }
 
     /**
-     * Assert that the response has a not found status code.
-     *
-     * @return $this
-     */
-    public function assertNotFound()
-    {
-        return $this->assertStatus(404);
-    }
-
-    /**
-     * Assert that the response has a forbidden status code.
-     *
-     * @return $this
-     */
-    public function assertForbidden()
-    {
-        return $this->assertStatus(403);
-    }
-
-    /**
-     * Assert that the response has an unauthorized status code.
-     *
-     * @return $this
-     */
-    public function assertUnauthorized()
-    {
-        return $this->assertStatus(401);
-    }
-
-    /**
-     * Assert that the response has a 422 status code.
-     *
-     * @return $this
-     */
-    public function assertUnprocessable()
-    {
-        return $this->assertStatus(422);
-    }
-
-    /**
-     * Assert that the response is a server error.
-     *
-     * @return $this
-     */
-    public function assertServerError()
-    {
-        PHPUnit::assertTrue(
-            $this->isServerError(),
-            $this->statusMessageWithDetails('>=500, < 600', $this->getStatusCode())
-        );
-
-        return $this;
-    }
-
-    /**
      * Assert that the response has the given status code.
      *
      * @param  int  $status
@@ -548,6 +493,19 @@ class TestResponse implements ArrayAccess
     public function assertContent($value)
     {
         PHPUnit::assertSame($value, $this->content());
+
+        return $this;
+    }
+
+    /**
+     * Assert that the given string matches the streamed response content.
+     *
+     * @param  string  $value
+     * @return $this
+     */
+    public function assertStreamedContent($value)
+    {
+        PHPUnit::assertSame($value, $this->streamedContent());
 
         return $this;
     }

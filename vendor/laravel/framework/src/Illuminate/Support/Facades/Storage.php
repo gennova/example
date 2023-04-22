@@ -5,11 +5,7 @@ namespace Illuminate\Support\Facades;
 use Illuminate\Filesystem\Filesystem;
 
 /**
- * @method static \Illuminate\Contracts\Filesystem\Filesystem assertExists(string|array $path, string|null $content = null)
- * @method static \Illuminate\Contracts\Filesystem\Filesystem assertDirectoryEmpty(string $path)
- * @method static \Illuminate\Contracts\Filesystem\Filesystem assertMissing(string|array $path)
- * @method static \Illuminate\Contracts\Filesystem\Filesystem cloud()
- * @method static \Illuminate\Contracts\Filesystem\Filesystem build(string|array $root)
+ * @method static \Illuminate\Contracts\Filesystem\Filesystem drive(string|null $name = null)
  * @method static \Illuminate\Contracts\Filesystem\Filesystem disk(string|null $name = null)
  * @method static \Illuminate\Contracts\Filesystem\Filesystem cloud()
  * @method static \Illuminate\Contracts\Filesystem\Filesystem build(string|array $config)
