@@ -83,9 +83,9 @@
             <h4><sup>Rp.</sup>27.500.000<span></span></h4>
             <ul>
               <li>Hosting & Domain</li>
-              <li>Web Apps Included</li>
+              <li>Web Apps, Android Apps, Dashboard Monitoring</li>
               <li>Data Warehouse</li>
-              <li>Power BI, Databrick</li>
+              <li>Power BI, Reporting</li>
               <li>Lifetime Support</li>
             </ul>
             <div class="btn-wrap">
